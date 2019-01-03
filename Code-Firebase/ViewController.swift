@@ -22,6 +22,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func crashButtonTapped(_ sender: AnyObject) {
+        print("motify something on dev")
         Crashlytics.sharedInstance().crash()
     }
 
