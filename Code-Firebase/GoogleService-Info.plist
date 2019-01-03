@@ -7,9 +7,9 @@
 	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
 	<string>ca-app-pub-3940256099942544/4411468910</string>
 	<key>CLIENT_ID</key>
-	<string>809343701812-rmfgrepom09mue432shrjovq2v4f3l53.apps.googleusercontent.com</string>
+	<string>809343701812-e2tfjhf29srtpv7f7f99imrdevs9qucd.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.809343701812-rmfgrepom09mue432shrjovq2v4f3l53</string>
+	<string>com.googleusercontent.apps.809343701812-e2tfjhf29srtpv7f7f99imrdevs9qucd</string>
 	<key>API_KEY</key>
 	<string>AIzaSyD_2Lj3J_aMBL7RdpeMnsUMQjr0R06-L4g</string>
 	<key>GCM_SENDER_ID</key>
@@ -17,7 +17,7 @@
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.tonysong.app.Code-Firebase</string>
+	<string>com.tonysong.app.prod</string>
 	<key>PROJECT_ID</key>
 	<string>code-firebase-79bec</string>
 	<key>STORAGE_BUCKET</key>
@@ -33,7 +33,7 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:809343701812:ios:597e816b63c9e2e7</string>
+	<string>1:809343701812:ios:64db570f897c1684</string>
 	<key>DATABASE_URL</key>
 	<string>https://code-firebase-79bec.firebaseio.com</string>
 </dict>
