@@ -4,7 +4,7 @@
 target 'Code-Firebase' do
   # Comment the next line if you're not using Swift and don't want to use dynamic 
 
-	pod 'Firebase/Core'
+#    pod 'Firebase/Core'
 	pod 'Fabric'
 	pod 'Crashlytics', '~> 3.12.0'
 

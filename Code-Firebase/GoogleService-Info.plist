@@ -7,21 +7,21 @@
 	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
 	<string>ca-app-pub-3940256099942544/4411468910</string>
 	<key>CLIENT_ID</key>
-	<string>1056555634600-gqpe4gbcd2efbfri148f6ui3fnkd798m.apps.googleusercontent.com</string>
+	<string>809343701812-rmfgrepom09mue432shrjovq2v4f3l53.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.1056555634600-gqpe4gbcd2efbfri148f6ui3fnkd798m</string>
+	<string>com.googleusercontent.apps.809343701812-rmfgrepom09mue432shrjovq2v4f3l53</string>
 	<key>API_KEY</key>
-	<string>AIzaSyCRJTM62KQ9ANryQNtjl1jMVXUeEfm0WgU</string>
+	<string>AIzaSyD_2Lj3J_aMBL7RdpeMnsUMQjr0R06-L4g</string>
 	<key>GCM_SENDER_ID</key>
-	<string>1056555634600</string>
+	<string>809343701812</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
 	<string>com.tonysong.app.Code-Firebase</string>
 	<key>PROJECT_ID</key>
-	<string>code-firebase-4ba89</string>
+	<string>code-firebase-79bec</string>
 	<key>STORAGE_BUCKET</key>
-	<string>code-firebase-4ba89.appspot.com</string>
+	<string>code-firebase-79bec.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<true></true>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -33,8 +33,8 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:1056555634600:ios:597e816b63c9e2e7</string>
+	<string>1:809343701812:ios:597e816b63c9e2e7</string>
 	<key>DATABASE_URL</key>
-	<string>https://code-firebase-4ba89.firebaseio.com</string>
+	<string>https://code-firebase-79bec.firebaseio.com</string>
 </dict>
 </plist>

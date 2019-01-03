@@ -14,7 +14,7 @@
 		244AA8C621C8C8BA00191059 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 244AA8C421C8C8BA00191059 /* LaunchScreen.storyboard */; };
 		244AA8D121C8C8BA00191059 /* Code_FirebaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244AA8D021C8C8BA00191059 /* Code_FirebaseTests.swift */; };
 		244AA8DC21C8C8BA00191059 /* Code_FirebaseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244AA8DB21C8C8BA00191059 /* Code_FirebaseUITests.swift */; };
-		244AA8EA21C8CFCD00191059 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 244AA8E921C8CFCD00191059 /* GoogleService-Info.plist */; };
+		24D7C68421DC5F3B000A264F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 24D7C68321DC5F3B000A264F /* GoogleService-Info.plist */; };
 		414902A566764D542AC4ACF6 /* libPods-Code-Firebase.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C853AC652AAB0D3B3F7E8B98 /* libPods-Code-Firebase.a */; };
 		E45DCD5974352C64DC98377D /* libPods-Code-FirebaseUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AB8EBE3115BCFA03408FD9E /* libPods-Code-FirebaseUITests.a */; };
 		FC1749A8EC6B1A0BE1014ADE /* libPods-Code-FirebaseTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8105B75FCFB7C3962AA1255A /* libPods-Code-FirebaseTests.a */; };
@@ -52,7 +52,7 @@
 		244AA8D721C8C8BA00191059 /* Code-FirebaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Code-FirebaseUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		244AA8DB21C8C8BA00191059 /* Code_FirebaseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Code_FirebaseUITests.swift; sourceTree = "<group>"; };
 		244AA8DD21C8C8BA00191059 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		244AA8E921C8CFCD00191059 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		24D7C68321DC5F3B000A264F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		65CFA1EAA4EB9BE1AF56D58B /* Pods-Code-FirebaseUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Code-FirebaseUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Code-FirebaseUITests/Pods-Code-FirebaseUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		8105B75FCFB7C3962AA1255A /* libPods-Code-FirebaseTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Code-FirebaseTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BB27B8D111F02DF57465CA3 /* Pods-Code-FirebaseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Code-FirebaseTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Code-FirebaseTests/Pods-Code-FirebaseTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -122,7 +122,7 @@
 				244AA8C221C8C8BA00191059 /* Assets.xcassets */,
 				244AA8C421C8C8BA00191059 /* LaunchScreen.storyboard */,
 				244AA8C721C8C8BA00191059 /* Info.plist */,
-				244AA8E921C8CFCD00191059 /* GoogleService-Info.plist */,
+				24D7C68321DC5F3B000A264F /* GoogleService-Info.plist */,
 			);
 			path = "Code-Firebase";
 			sourceTree = "<group>";
@@ -277,7 +277,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				244AA8C621C8C8BA00191059 /* LaunchScreen.storyboard in Resources */,
-				244AA8EA21C8CFCD00191059 /* GoogleService-Info.plist in Resources */,
+				24D7C68421DC5F3B000A264F /* GoogleService-Info.plist in Resources */,
 				244AA8C321C8C8BA00191059 /* Assets.xcassets in Resources */,
 				244AA8C121C8C8B900191059 /* Main.storyboard in Resources */,
 			);
@@ -302,7 +302,7 @@
 /* Begin PBXShellScriptBuildPhase section */
 		244AA8EB21C8D70A00191059 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 12;
+			buildActionMask = 8;
 			files = (
 			);
 			inputFileListPaths = (
@@ -314,9 +314,9 @@
 			);
 			outputPaths = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
+			runOnlyForDeploymentPostprocessing = 1;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Fabric/run\" 9ba4907ed4efdacd0319566f903ce279e1f49ac1 89b497378e652ababb0f879a6335f467a15f7dd5016221ead1add6c8911320c6\n";
+			shellScript = "\"${PODS_ROOT}/Fabric/run\"\n\n";
 		};
 		4682FBE13A6BB292F7FBC85C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -559,13 +559,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = L69EWG2AYC;
+				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = "Code-Firebase/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tonysong.app.Code-Firebase";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tonysong.app.Code-Firebas";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -579,13 +580,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L69EWG2AYC;
+				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = "Code-Firebase/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tonysong.app.Code-Firebase";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tonysong.app.Code-Firebas";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
